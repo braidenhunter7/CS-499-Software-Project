@@ -6,7 +6,7 @@ WEEK 1 Update --> Met with buisness and got final details over the project / wha
 WEEK 2 Update --> Began learning some of the software I will be utilizing for this project, specifically TKinter GUI.
               --> Brainstormed possible workflows to determine best path forward with the buisness.
 
-Week 3 Update -->
+Week 3 Update --> Started working on code for the GUI in Python --> current Scanner.py file uploaded
 
 Week 4 Update -->
 
