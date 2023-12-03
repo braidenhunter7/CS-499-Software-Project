@@ -24,18 +24,22 @@ def check_item(barcode, order):
     current_item = order['line_items'][current_index]
     remaining = order['line_items']
 
+    # Checks to see if checkbox is clicked and bypasses product barcode if so
     if checkbox_var.get():
         messagebox.showinfo("Barcode Bypass", "Barcode for item has been bypassed.")
+        # If quantity of product more than one, cycle through to scan each item
         if current_item['quantity'] != 1:
             quantity = current_item['quantity']
             for i in range(0, quantity):
                 scanned_items += str(current_item['title']) + ", "
                 next_item(remaining, order)
+        # If only one item in quantity, proceed to next item
         else:
             current_index += 1
             scanned_items += str(current_item['title']) + ", "
             entry.delete(0, tk.END)
             next_item(remaining, order)
+    # If checkbox is not clicked, test wether barcode inputted matches product barcode
     else:
         try:
             item_num = str(item_num)
@@ -52,6 +56,7 @@ def check_item(barcode, order):
                     remaining = order['line_items']
                     messagebox.showinfo("Correct Item", "Correct item scanned! Good Job!")
                     next_item(remaining, order)
+            # If incorrect barcode scanned popup error
             else:
                 entry.delete(0, tk.END)
                 messagebox.showerror("Error", "Incorrect item scanned! Try again.")
@@ -60,6 +65,7 @@ def check_item(barcode, order):
             messagebox.showerror("Error", "Please enter a valid Item number.")
 
 
+# Updates the order tag with Scanned after all items in order are scanned
 def update_order_tag(order):
     if 'Scanned ' in order['tags']:
         new_window.destroy()
@@ -75,12 +81,13 @@ def next_item(remaining, order):
     global current_index, scanned_label, checkbox_var, item_label, entry, scanned_items
     scanned_label.config(text=scanned_items)
 
+    # Moves to the next item if there is one
     if current_index < len(remaining):
         # entry.delete(0, tk.END)
         checkbox_var.set(False)
         new_window.destroy()
         open_order_items(order)
-        # item_label.config(text=next_barcode)
+    # If no items left in order to be scanned, update order tag
     else:
         messagebox.showinfo("Info", "All items checked!")
         current_index = 0
@@ -124,7 +131,7 @@ def get_barcode(prod_id, var_id):
     messagebox.showinfo("Incorrect Item Number", "The item number is not valid.")
     return False
 
-
+# Displays an image via url
 def display_image(url):
     response = requests.get(url)
     img = Image.open(BytesIO(response.content))
@@ -132,7 +139,7 @@ def display_image(url):
     photo = ImageTk.PhotoImage(img)
     return photo
 
-
+# Creates a popup that asks user if they want to close out without finishing
 def on_closing():
     global current_index, scanned_items
     if messagebox.askokcancel("Quit", "Are you sure you want to quit? Progress will not be saved."):
