@@ -1,0 +1,1157 @@
+[
+  {
+    "id": 5007613919290,
+    "admin_graphql_api_id": "gid://shopify/Order/5007613919290",
+    "buyer_accepts_marketing": true,
+    "cancel_reason": null,
+    "cancelled_at": null,
+    "closed_at": null,
+    "confirmed": true,
+    "created_at": "2023-11-24T20:29:01-05:00",
+    "currency": "USD",
+    "current_subtotal_price": "53.87",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "53.87",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "53.87",
+        "currency_code": "USD"
+      }
+    },
+    "current_total_discounts": "23.08",
+    "current_total_discounts_set": {
+      "shop_money": {
+        "amount": "23.08",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "23.08",
+        "currency_code": "USD"
+      }
+    },
+    "current_total_duties_set": null,
+    "current_total_price": "53.87",
+    "current_total_price_set": {
+      "shop_money": {
+        "amount": "53.87",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "53.87",
+        "currency_code": "USD"
+      }
+    },
+    "current_total_tax": "0.00",
+    "current_total_tax_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "customer_locale": "en",
+    "device_id": null,
+    "discount_codes": [],
+    "estimated_taxes": false,
+    "financial_status": "paid",
+    "fulfillment_status": null,
+    "landing_site_ref": null,
+    "location_id": null,
+    "merchant_of_record_app_id": null,
+    "name": "SB-62629",
+    "note": "",
+    "note_attributes": [],
+    "number": 61629,
+    "order_number": 62629,
+    "order_status_url": "https://skybreed-discs.com/25577390125/orders/8cd0c85410d44b0d7743c65dc85bc96c/authenticate?key=3e156556afa08706bea16246172f32b4",
+    "original_total_duties_set": null,
+    "phone": null,
+    "presentment_currency": "USD",
+    "processed_at": "2023-11-24T20:28:58-05:00",
+    "processing_method": "direct",
+    "source_name": "web",
+    "source_url": null,
+    "subtotal_price": "53.87",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "53.87",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "53.87",
+        "currency_code": "USD"
+      }
+    },
+    "tags": "",
+    "tax_lines": [],
+    "taxes_included": false,
+    "test": false,
+    "token": "8cd0c85410d44b0d7743c65dc85bc96c",
+    "total_discounts": "23.08",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "23.08",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "23.08",
+        "currency_code": "USD"
+      }
+    },
+    "total_line_items_price": "76.95",
+    "total_line_items_price_set": {
+      "shop_money": {
+        "amount": "76.95",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "76.95",
+        "currency_code": "USD"
+      }
+    },
+    "total_outstanding": "0.00",
+    "total_price": "53.87",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "53.87",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "53.87",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "0.00",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tip_received": "0.00",
+    "total_weight": 873,
+    "updated_at": "2023-11-24T20:29:04-05:00",
+    "user_id": null,
+    "discount_applications": [
+      {
+        "target_type": "line_item",
+        "type": "automatic",
+        "value": "30.0",
+        "value_type": "percentage",
+        "allocation_method": "across",
+        "target_selection": "entitled",
+        "title": "BFCM 2023"
+      }
+    ],
+    "fulfillments": [],
+    "line_items": [
+      {
+        "id": 12796875178042,
+        "admin_graphql_api_id": "gid://shopify/LineItem/12796875178042",
+        "fulfillable_quantity": 1,
+        "fulfillment_service": "manual",
+        "fulfillment_status": null,
+        "gift_card": false,
+        "grams": 174,
+        "name": "Discraft ESP Zeus - 173-174g: Lemon-Lime #120570",
+        "price": "19.99",
+        "price_set": {
+          "shop_money": {
+            "amount": "19.99",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "19.99",
+            "currency_code": "USD"
+          }
+        },
+        "product_exists": true,
+        "product_id": 4400751181882,
+        "properties": [],
+        "quantity": 1,
+        "requires_shipping": true,
+        "sku": "D004-120570",
+        "taxable": true,
+        "title": "Discraft ESP Zeus",
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "variant_id": 40003520856122,
+        "variant_inventory_management": "shopify",
+        "variant_title": "173-174g: Lemon-Lime #120570",
+        "vendor": "Discraft",
+        "tax_lines": [
+          {
+            "channel_liable": false,
+            "price": "0.00",
+            "price_set": {
+              "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              }
+            },
+            "rate": 0.0,
+            "title": "West Virginia State Tax"
+          }
+        ],
+        "duties": [],
+        "discount_allocations": [
+          {
+            "amount": "6.00",
+            "amount_set": {
+              "shop_money": {
+                "amount": "6.00",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "6.00",
+                "currency_code": "USD"
+              }
+            },
+            "discount_application_index": 0
+          }
+        ]
+      },
+      {
+        "id": 12796875210810,
+        "admin_graphql_api_id": "gid://shopify/LineItem/12796875210810",
+        "fulfillable_quantity": 1,
+        "fulfillment_service": "manual",
+        "fulfillment_status": null,
+        "gift_card": false,
+        "grams": 177,
+        "name": "Discraft LE ESP Swirl Meteor Ledgestone 2022 - 177+g: Toxic Shimmer #123490",
+        "price": "15.99",
+        "price_set": {
+          "shop_money": {
+            "amount": "15.99",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "15.99",
+            "currency_code": "USD"
+          }
+        },
+        "product_exists": true,
+        "product_id": 6788098588730,
+        "properties": [],
+        "quantity": 1,
+        "requires_shipping": true,
+        "sku": "D004-123490",
+        "taxable": true,
+        "title": "Discraft LE ESP Swirl Meteor Ledgestone 2022",
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "variant_id": 40137749495866,
+        "variant_inventory_management": "shopify",
+        "variant_title": "177+g: Toxic Shimmer #123490",
+        "vendor": "Discraft",
+        "tax_lines": [
+          {
+            "channel_liable": false,
+            "price": "0.00",
+            "price_set": {
+              "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              }
+            },
+            "rate": 0.0,
+            "title": "West Virginia State Tax"
+          }
+        ],
+        "duties": [],
+        "discount_allocations": [
+          {
+            "amount": "4.80",
+            "amount_set": {
+              "shop_money": {
+                "amount": "4.80",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "4.80",
+                "currency_code": "USD"
+              }
+            },
+            "discount_application_index": 0
+          }
+        ]
+      },
+      {
+        "id": 12796875243578,
+        "admin_graphql_api_id": "gid://shopify/LineItem/12796875243578",
+        "fulfillable_quantity": 1,
+        "fulfillment_service": "manual",
+        "fulfillment_status": null,
+        "gift_card": false,
+        "grams": 174,
+        "name": "Discraft ESP Raptor - 173-174g: Limeade #110830",
+        "price": "18.99",
+        "price_set": {
+          "shop_money": {
+            "amount": "18.99",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "18.99",
+            "currency_code": "USD"
+          }
+        },
+        "product_exists": true,
+        "product_id": 4621214613562,
+        "properties": [],
+        "quantity": 1,
+        "requires_shipping": true,
+        "sku": "D004-110830",
+        "taxable": true,
+        "title": "Discraft ESP Raptor",
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "variant_id": 39790723596346,
+        "variant_inventory_management": "shopify",
+        "variant_title": "173-174g: Limeade #110830",
+        "vendor": "Discraft",
+        "tax_lines": [
+          {
+            "channel_liable": false,
+            "price": "0.00",
+            "price_set": {
+              "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              }
+            },
+            "rate": 0.0,
+            "title": "West Virginia State Tax"
+          }
+        ],
+        "duties": [],
+        "discount_allocations": [
+          {
+            "amount": "5.70",
+            "amount_set": {
+              "shop_money": {
+                "amount": "5.70",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "5.70",
+                "currency_code": "USD"
+              }
+            },
+            "discount_application_index": 0
+          }
+        ]
+      },
+      {
+        "id": 12796875276346,
+        "admin_graphql_api_id": "gid://shopify/LineItem/12796875276346",
+        "fulfillable_quantity": 1,
+        "fulfillment_service": "manual",
+        "fulfillment_status": null,
+        "gift_card": false,
+        "grams": 174,
+        "name": "Discraft Putter Line Zone - 173-174g: Strawberry Sundae #111696",
+        "price": "10.99",
+        "price_set": {
+          "shop_money": {
+            "amount": "10.99",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "10.99",
+            "currency_code": "USD"
+          }
+        },
+        "product_exists": true,
+        "product_id": 6587471560762,
+        "properties": [],
+        "quantity": 1,
+        "requires_shipping": true,
+        "sku": "D004-111696",
+        "taxable": true,
+        "title": "Discraft Putter Line Zone",
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "variant_id": 39828916961338,
+        "variant_inventory_management": "shopify",
+        "variant_title": "173-174g: Strawberry Sundae #111696",
+        "vendor": "Discraft",
+        "tax_lines": [
+          {
+            "channel_liable": false,
+            "price": "0.00",
+            "price_set": {
+              "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              }
+            },
+            "rate": 0.0,
+            "title": "West Virginia State Tax"
+          }
+        ],
+        "duties": [],
+        "discount_allocations": [
+          {
+            "amount": "3.29",
+            "amount_set": {
+              "shop_money": {
+                "amount": "3.29",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "3.29",
+                "currency_code": "USD"
+              }
+            },
+            "discount_application_index": 0
+          }
+        ]
+      },
+      {
+        "id": 12796875309114,
+        "admin_graphql_api_id": "gid://shopify/LineItem/12796875309114",
+        "fulfillable_quantity": 1,
+        "fulfillment_service": "manual",
+        "fulfillment_status": null,
+        "gift_card": false,
+        "grams": 174,
+        "name": "Discraft Putter Line Zone - 173-174g: Ocean #117094",
+        "price": "10.99",
+        "price_set": {
+          "shop_money": {
+            "amount": "10.99",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "10.99",
+            "currency_code": "USD"
+          }
+        },
+        "product_exists": true,
+        "product_id": 6587471560762,
+        "properties": [],
+        "quantity": 1,
+        "requires_shipping": true,
+        "sku": "D004-117094",
+        "taxable": true,
+        "title": "Discraft Putter Line Zone",
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "variant_id": 39905014579258,
+        "variant_inventory_management": "shopify",
+        "variant_title": "173-174g: Ocean #117094",
+        "vendor": "Discraft",
+        "tax_lines": [
+          {
+            "channel_liable": false,
+            "price": "0.00",
+            "price_set": {
+              "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              }
+            },
+            "rate": 0.0,
+            "title": "West Virginia State Tax"
+          }
+        ],
+        "duties": [],
+        "discount_allocations": [
+          {
+            "amount": "3.29",
+            "amount_set": {
+              "shop_money": {
+                "amount": "3.29",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "3.29",
+                "currency_code": "USD"
+              }
+            },
+            "discount_application_index": 0
+          }
+        ]
+      }
+    ],
+    "payment_terms": null,
+    "refunds": [],
+    "shipping_lines": [
+      {
+        "id": 4259996106810,
+        "carrier_identifier": null,
+        "code": "Free Shipping",
+        "delivery_category": null,
+        "discounted_price": "0.00",
+        "discounted_price_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "phone": null,
+        "price": "0.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "requested_fulfillment_service_id": null,
+        "source": "shopify",
+        "title": "Free Shipping",
+        "tax_lines": [
+          {
+            "channel_liable": false,
+            "price": "0.00",
+            "price_set": {
+              "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              }
+            },
+            "rate": 0.0,
+            "title": "West Virginia State Tax"
+          }
+        ],
+        "discount_allocations": []
+      }
+    ]
+  },
+  {
+    "id": 5007493988410,
+    "admin_graphql_api_id": "gid://shopify/Order/5007493988410",
+    "buyer_accepts_marketing": true,
+    "cancel_reason": null,
+    "cancelled_at": null,
+    "closed_at": null,
+    "confirmed": true,
+    "created_at": "2023-11-24T19:58:59-05:00",
+    "currency": "USD",
+    "current_subtotal_price": "55.86",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "55.86",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "55.86",
+        "currency_code": "USD"
+      }
+    },
+    "current_total_discounts": "23.94",
+    "current_total_discounts_set": {
+      "shop_money": {
+        "amount": "23.94",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "23.94",
+        "currency_code": "USD"
+      }
+    },
+    "current_total_duties_set": null,
+    "current_total_price": "55.86",
+    "current_total_price_set": {
+      "shop_money": {
+        "amount": "55.86",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "55.86",
+        "currency_code": "USD"
+      }
+    },
+    "current_total_tax": "0.00",
+    "current_total_tax_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "customer_locale": "en",
+    "device_id": null,
+    "discount_codes": [],
+    "estimated_taxes": false,
+    "financial_status": "paid",
+    "fulfillment_status": null,
+    "landing_site_ref": null,
+    "location_id": null,
+    "merchant_of_record_app_id": null,
+    "name": "SB-62628",
+    "note": null,
+    "note_attributes": [],
+    "number": 61628,
+    "order_number": 62628,
+    "order_status_url": "https://skybreed-discs.com/25577390125/orders/ffa19bb3c5f2436563b68406db0b9f3d/authenticate?key=6e74e0dc51c0a3ecd1bcc7687cbd92a9",
+    "original_total_duties_set": null,
+    "phone": null,
+    "presentment_currency": "USD",
+    "processed_at": "2023-11-24T19:58:56-05:00",
+    "processing_method": "express",
+    "source_name": "web",
+    "source_url": null,
+    "subtotal_price": "55.86",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "55.86",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "55.86",
+        "currency_code": "USD"
+      }
+    },
+    "tags": "",
+    "tax_lines": [],
+    "taxes_included": false,
+    "test": false,
+    "token": "ffa19bb3c5f2436563b68406db0b9f3d",
+    "total_discounts": "23.94",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "23.94",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "23.94",
+        "currency_code": "USD"
+      }
+    },
+    "total_line_items_price": "79.80",
+    "total_line_items_price_set": {
+      "shop_money": {
+        "amount": "79.80",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "79.80",
+        "currency_code": "USD"
+      }
+    },
+    "total_outstanding": "0.00",
+    "total_price": "55.86",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "55.86",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "55.86",
+        "currency_code": "USD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tax": "0.00",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "total_tip_received": "0.00",
+    "total_weight": 694,
+    "updated_at": "2023-11-24T19:59:02-05:00",
+    "user_id": null,
+    "discount_applications": [
+      {
+        "target_type": "line_item",
+        "type": "automatic",
+        "value": "30.0",
+        "value_type": "percentage",
+        "allocation_method": "across",
+        "target_selection": "entitled",
+        "title": "BFCM 2023"
+      }
+    ],
+    "fulfillments": [],
+    "line_items": [
+      {
+        "id": 12796563718202,
+        "admin_graphql_api_id": "gid://shopify/LineItem/12796563718202",
+        "fulfillable_quantity": 1,
+        "fulfillment_service": "manual",
+        "fulfillment_status": null,
+        "gift_card": false,
+        "grams": 176,
+        "name": "Axiom Total Eclipse Hex Halloween Lizottl 2023 - 176g: Glowey #122383",
+        "price": "28.95",
+        "price_set": {
+          "shop_money": {
+            "amount": "28.95",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "28.95",
+            "currency_code": "USD"
+          }
+        },
+        "product_exists": true,
+        "product_id": 7115717967930,
+        "properties": [],
+        "quantity": 1,
+        "requires_shipping": true,
+        "sku": "A001-122383",
+        "taxable": true,
+        "title": "Axiom Total Eclipse Hex Halloween Lizottl 2023",
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "variant_id": 40079617491002,
+        "variant_inventory_management": "shopify",
+        "variant_title": "176g: Glowey #122383",
+        "vendor": "Axiom Discs",
+        "tax_lines": [
+          {
+            "channel_liable": false,
+            "price": "0.00",
+            "price_set": {
+              "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              }
+            },
+            "rate": 0.0,
+            "title": "Kansas State Tax"
+          }
+        ],
+        "duties": [],
+        "discount_allocations": [
+          {
+            "amount": "8.69",
+            "amount_set": {
+              "shop_money": {
+                "amount": "8.69",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "8.69",
+                "currency_code": "USD"
+              }
+            },
+            "discount_application_index": 0
+          }
+        ]
+      },
+      {
+        "id": 12796563750970,
+        "admin_graphql_api_id": "gid://shopify/LineItem/12796563750970",
+        "fulfillable_quantity": 1,
+        "fulfillment_service": "manual",
+        "fulfillment_status": null,
+        "gift_card": false,
+        "grams": 169,
+        "name": "Axiom Fission Envy - 169g: Concrete / Asphalt #115874",
+        "price": "18.95",
+        "price_set": {
+          "shop_money": {
+            "amount": "18.95",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "18.95",
+            "currency_code": "USD"
+          }
+        },
+        "product_exists": true,
+        "product_id": 7049634054202,
+        "properties": [],
+        "quantity": 1,
+        "requires_shipping": true,
+        "sku": "A001-115874",
+        "taxable": true,
+        "title": "Axiom Fission Envy",
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "variant_id": 39895134699578,
+        "variant_inventory_management": "shopify",
+        "variant_title": "169g: Concrete / Asphalt #115874",
+        "vendor": "Axiom Discs",
+        "tax_lines": [
+          {
+            "channel_liable": false,
+            "price": "0.00",
+            "price_set": {
+              "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              }
+            },
+            "rate": 0.0,
+            "title": "Kansas State Tax"
+          }
+        ],
+        "duties": [],
+        "discount_allocations": [
+          {
+            "amount": "5.69",
+            "amount_set": {
+              "shop_money": {
+                "amount": "5.69",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "5.69",
+                "currency_code": "USD"
+              }
+            },
+            "discount_application_index": 0
+          }
+        ]
+      },
+      {
+        "id": 12796563783738,
+        "admin_graphql_api_id": "gid://shopify/LineItem/12796563783738",
+        "fulfillable_quantity": 1,
+        "fulfillment_service": "manual",
+        "fulfillment_status": null,
+        "gift_card": false,
+        "grams": 170,
+        "name": "Axiom Fission Hex - 170g: Snow / Stone #122431",
+        "price": "18.95",
+        "price_set": {
+          "shop_money": {
+            "amount": "18.95",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "18.95",
+            "currency_code": "USD"
+          }
+        },
+        "product_exists": true,
+        "product_id": 7048592490554,
+        "properties": [],
+        "quantity": 1,
+        "requires_shipping": true,
+        "sku": "A001-122431",
+        "taxable": true,
+        "title": "Axiom Fission Hex",
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "variant_id": 40102738526266,
+        "variant_inventory_management": "shopify",
+        "variant_title": "170g: Snow / Stone #122431",
+        "vendor": "Axiom Discs",
+        "tax_lines": [
+          {
+            "channel_liable": false,
+            "price": "0.00",
+            "price_set": {
+              "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              }
+            },
+            "rate": 0.0,
+            "title": "Kansas State Tax"
+          }
+        ],
+        "duties": [],
+        "discount_allocations": [
+          {
+            "amount": "5.68",
+            "amount_set": {
+              "shop_money": {
+                "amount": "5.68",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "5.68",
+                "currency_code": "USD"
+              }
+            },
+            "discount_application_index": 0
+          }
+        ]
+      },
+      {
+        "id": 12796563816506,
+        "admin_graphql_api_id": "gid://shopify/LineItem/12796563816506",
+        "fulfillable_quantity": 1,
+        "fulfillment_service": "manual",
+        "fulfillment_status": null,
+        "gift_card": false,
+        "grams": 179,
+        "name": "MVP Electron Matrix Rav3n's Keep - 179g: Grapey #91906",
+        "price": "12.95",
+        "price_set": {
+          "shop_money": {
+            "amount": "12.95",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "12.95",
+            "currency_code": "USD"
+          }
+        },
+        "product_exists": true,
+        "product_id": 6784526123066,
+        "properties": [],
+        "quantity": 1,
+        "requires_shipping": true,
+        "sku": "M011-91906",
+        "taxable": true,
+        "title": "MVP Electron Matrix Rav3n's Keep",
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "variant_id": 39593316646970,
+        "variant_inventory_management": "shopify",
+        "variant_title": "179g: Grapey #91906",
+        "vendor": "MVP Disc Sports",
+        "tax_lines": [
+          {
+            "channel_liable": false,
+            "price": "0.00",
+            "price_set": {
+              "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              }
+            },
+            "rate": 0.0,
+            "title": "Kansas State Tax"
+          }
+        ],
+        "duties": [],
+        "discount_allocations": [
+          {
+            "amount": "3.88",
+            "amount_set": {
+              "shop_money": {
+                "amount": "3.88",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "3.88",
+                "currency_code": "USD"
+              }
+            },
+            "discount_application_index": 0
+          }
+        ]
+      }
+    ],
+    "payment_terms": null,
+    "refunds": [],
+    "shipping_lines": [
+      {
+        "id": 4259881058362,
+        "carrier_identifier": "650f1a14fa979ec5c74d063e968411d4",
+        "code": "Free Shipping",
+        "delivery_category": null,
+        "discounted_price": "0.00",
+        "discounted_price_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "phone": null,
+        "price": "0.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "requested_fulfillment_service_id": null,
+        "source": "shopify",
+        "title": "Free Shipping",
+        "tax_lines": [
+          {
+            "channel_liable": false,
+            "price": "0.00",
+            "price_set": {
+              "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              }
+            },
+            "rate": 0.0,
+            "title": "Kansas State Tax"
+          }
+        ],
+        "discount_allocations": []
+      }
+    ]
+  }
+]
