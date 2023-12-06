@@ -1,7 +1,11 @@
 # CS-499-Software-Project
 This will be my repository for the scanning software project for CS 499
 
+Most recent code file: skybreedScannerCurrent.py
+
 To run the code, Pillow and Requests libraries must be installed on your device
+
+CS 499 Project Order Window.png and CS 499 Project Product Window.png display the various windows of the project without the need to run code
 
 productData.txt and OrderData.txt contain real test data from skybreed. Further modification will be done after presenting the project to utilize API calls to gather and modify data. This will be done afterwords to help protect skybreed by not showing any sensitive information.
 
